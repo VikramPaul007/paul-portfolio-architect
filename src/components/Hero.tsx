@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background with subtle mandala pattern */}
       <div className="absolute inset-0 lotus-bg"></div>
-      
+
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-32 h-32 opacity-20 animate-mandala-spin">
         <svg viewBox="0 0 100 100" className="w-full h-full text-gold-400">
@@ -16,7 +16,7 @@ const Hero = () => {
           <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" strokeWidth="0.3" />
         </svg>
       </div>
-      
+
       <div className="absolute bottom-20 right-10 w-24 h-24 opacity-15 animate-mandala-spin" style={{ animationDirection: 'reverse' }}>
         <svg viewBox="0 0 100 100" className="w-full h-full text-indigo-500">
           <circle cx="50" cy="50" r="8" fill="currentColor" />
@@ -32,32 +32,32 @@ const Hero = () => {
             <span className="text-5xl font-bold text-gradient-gold font-devanagari">VP</span>
           </div>
         </div>
-        
+
         <h1 className="text-6xl md:text-7xl font-bold text-indigo-900 mb-4 devanagari-heading">
           Vikram Paul
         </h1>
-        
+
         <div className="gold-accent mx-auto w-fit mb-6">
           <h2 className="text-2xl md:text-3xl text-sandstone-700 font-serif elegant-text">
             Senior Software Engineer & Technical Lead
           </h2>
         </div>
-        
+
         <p className="text-lg md:text-xl text-sandstone-600 mb-8 max-w-3xl mx-auto leading-relaxed elegant-text">
-          Architecting scalable systems & leading high-performance teams to deliver 
+          Architecting scalable systems & leading high-performance teams to deliver
           mission-critical platforms for millions.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
-          <a 
+          <a
             href="mailto:vikrampaul1996@gmail.com"
             className="flex items-center space-x-2 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-8 py-4 rounded-xl hover:from-indigo-700 hover:to-indigo-800 transition-all duration-300 transform hover:scale-105 shadow-lg indian-hover"
           >
             <Mail size={20} />
             <span className="font-medium">Email</span>
           </a>
-          <a 
-            href="https://linkedin.com/in/vikrampaul"
+          <a
+            href="https://www.linkedin.com/in/vikram-paul/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 border-2 border-gold-400 text-indigo-800 px-8 py-4 rounded-xl hover:bg-gold-50 hover:border-gold-500 transition-all duration-300 transform hover:scale-105 indian-hover"
@@ -65,8 +65,8 @@ const Hero = () => {
             <Linkedin size={20} />
             <span className="font-medium">LinkedIn</span>
           </a>
-          <a 
-            href="https://github.com/vikrampaul"
+          <a
+            href="https://github.com/VikramPaul007"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 border-2 border-sandstone-400 text-indigo-800 px-8 py-4 rounded-xl hover:bg-sandstone-50 hover:border-sandstone-500 transition-all duration-300 transform hover:scale-105 indian-hover"
