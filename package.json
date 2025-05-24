@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://vikrampaul007.github.io/paul-portfolio-architect/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
